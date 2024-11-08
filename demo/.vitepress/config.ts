@@ -6,6 +6,7 @@ import type { Config as ThemeConfig } from '../../src/vitepress/config'
 export default defineConfigWithTheme<ThemeConfig>({
   extends: baseConfig,
 
+  base: '/docs/',
   vite: {
     build: {
       minify: false
